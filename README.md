@@ -1,22 +1,24 @@
 # 📝 TaskList
+1134791-Maria Eduarda Carvalho
+1135697-Gustavo Rampanelli
 
-Uma aplicação simples de linha de comando desenvolvida em Go para gerenciar tarefas.  
+Uma aplicação simples  desenvolvida em Go para gerenciar tarefas.  
 Utiliza contêineres Docker para facilitar a execução e o isolamento do ambiente.
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - [Go](https://golang.org/)
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 - [Postman](https://www.postman.com/)
 
-## 📦 Pré-requisitos
+##  Pré-requisitos
 
 - [Docker](https://www.docker.com/get-started) instalado
 - [Docker Compose](https://docs.docker.com/compose/install/) instalado
 - [Postman](https://www.postman.com/downloads/) para testar a API
 
-## ⚙️ Como Executar
+##  Como Executar
 
 1. **Clone o repositório:**
    ```bash
@@ -45,12 +47,12 @@ Utiliza contêineres Docker para facilitar a execução e o isolamento do ambien
 
 A aplicação estará disponível em `http://localhost:8080`.
 
-## 🧪 Testando com Postman
+##  Testando com Postman
 
 Você pode testar a API utilizando o Postman.  
 Abaixo estão os endpoints disponíveis:
 
-### ➕ Adicionar Tarefa
+###  Adicionar Tarefa
 
 - **Método:** `POST`
 - **URL:** `http://localhost:8080/tasks`
@@ -62,12 +64,12 @@ Abaixo estão os endpoints disponíveis:
   }
   ```
 
-### 📋 Listar Tarefas
+###  Listar Tarefas
 
 - **Método:** `GET`
 - **URL:** `http://localhost:8080/tasks`
 
-### ✏️ Atualizar Tarefa
+###  Atualizar Tarefa
 
 - **Método:** `PUT`
 - **URL:** `http://localhost:8080/tasks/{id}`
@@ -79,14 +81,14 @@ Abaixo estão os endpoints disponíveis:
   }
   ```
 
-### ❌ Remover Tarefa
+###  Remover Tarefa
 
 - **Método:** `DELETE`
 - **URL:** `http://localhost:8080/tasks/{id}`
 
 > Substitua `{id}` pelo ID da tarefa que deseja remover.
 
-## 🧹 Encerrando a Aplicação
+##  Encerrando a Aplicação
 
 Para parar e remover os contêineres:
 ```bash
