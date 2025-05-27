@@ -26,21 +26,8 @@ Utiliza contêineres Docker para facilitar a execução e o isolamento do ambien
    cd tasklist
    ```
 
-2. **Crie um arquivo `docker-compose.yml` no diretório raiz com o seguinte conteúdo:**
-   ```yaml
-   version: '3'
 
-   services:
-     tasklist:
-       build: .
-       ports:
-         - "8080:8080"
-       volumes:
-         - .:/app
-       command: go run main.go
-   ```
-
-3. **Construa e inicie os contêineres com Docker Compose:**
+2. **Construa e inicie os contêineres com Docker Compose:**
    ```bash
    docker-compose up --build
    ```
